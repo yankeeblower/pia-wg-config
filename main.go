@@ -23,7 +23,8 @@ func main() {
 			&cli.StringFlag{
 				Name:    "region",
 				Aliases: []string{"r"},
-				Value:   "philippines",
+//				Value:   "philippines",
+				Value:   "au_australia-so",
 				Usage:   "The private internet access region to connect to",
 			},
 			&cli.BoolFlag{
